@@ -27,8 +27,8 @@ resource "okta_theme" "natl" {
   primary_color_contrast_hex             = "#ffffff"
   secondary_color_hex                    = "#ebebed"
   secondary_color_contrast_hex           = "#000000"
-  sign_in_page_touch_point_variant       = "OKTA_DEFAULT"
-  end_user_dashboard_touch_point_variant = "OKTA_DEFAULT"
-  error_page_touch_point_variant         = "OKTA_DEFAULT"
+  sign_in_page_touch_point_variant       = "BACKGROUND_SECONDARY_COLOR"
+  end_user_dashboard_touch_point_variant = "LOGO_ON_FULL_WHITE_BACKGROUND"
+  error_page_touch_point_variant         = "BACKGROUND_SECONDARY_COLOR"
   email_template_touch_point_variant     = "FULL_THEME"
 }
