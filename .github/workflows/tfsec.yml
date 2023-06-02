@@ -7,9 +7,9 @@ name: tfsec
 
 on:
   push:
-    branches: [ "main", "paid-ext" ]
+    branches: [ "main", "dev" ]
   pull_request:
-    branches: [ "main", "paid-ext" ]
+    branches: [ "main", "dev" ]
 
 jobs:
   tfsec:
